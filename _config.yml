@@ -1,0 +1,40 @@
+
+title: Er. Prabin Bastola
+tagline: >
+  Civil Engineer, Lecturer and Researcher
+email: pbanstola8@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+ Prabin Banstola, professional Civil Engineer, Researcher and educator based in Pokhara, holds an MSc in Infrastructure Engineering and Management from Tribhuvan University.
+ Prabin has developed strong expertise in civil engineering through hands-on experience, technical certifications (Autocad, SAP2000, Civil 3D, ArcGIS, Smart Road), and professional involvement in diverse projects ranging from transport planning to site supervision and technical report preparation.
+baseurl: ""
+url: "https://prabinbanstola.com.np"
+lang: en_US
+
+include:
+  - .htaccess
+  - _pages
+
+sass:
+  sass_dir: _sass
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+
+plugins:
+  - jekyll-seo-tag
