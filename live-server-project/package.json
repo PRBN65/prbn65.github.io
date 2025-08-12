@@ -1,0 +1,14 @@
+{
+  "name": "live-server-project",
+  "version": "1.0.0",
+  "description": "A simple project to set up a live server for development.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
